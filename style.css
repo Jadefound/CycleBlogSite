@@ -1,0 +1,229 @@
+@font-face {
+    font-family: Mustardo;
+    src: url(mustardo.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.genLayout{
+    max-width: 1300px;
+    margin: auto;   
+}
+header{
+    height: 78vh;
+    background: url(images/wallpaperflare.com_wallpaper.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid red; */
+}
+
+nav>h1{
+    font-family: Mustardo;
+    font-weight: 100;
+    font-size: 40px;
+    color: white !important;
+}
+nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+    text-transform: capitalize;
+}
+
+
+.navItems{
+    width: 700px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 0.4rem;
+    /* border: 2px green solid; */
+}
+
+.navItems>a{
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 600;
+    padding-inline: 18px;
+    /* border: 2px solid red; */
+}
+.navItems>a>#sign{
+    padding-inline: 500px;
+}
+
+.navIcons{
+    margin-left: 50px;
+    color: white;
+    
+}
+.navIcons>i{
+    margin-inline-end: 20px;
+}
+
+.hero{
+    max-width: 200px;
+    margin: 11.4rem auto;
+    /* border: 2px solid red; */
+    color: #ffffff;
+}
+
+.hero>h2{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.hero>p{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.Post{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+    
+.blogPost{
+    width: 100%;
+    padding-inline: 2rem;
+    border-right: 1px solid #f4f4f4;
+}
+
+.postCard{
+    margin-bottom: 2rem;
+    border-bottom: 1px dotted rgba(128,128,128,0.303);
+    width: 100%
+}
+.postCard>img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.postCard h3{
+    margin-top: .5rem;
+    font-size: 20px;
+}
+
+.blogIcons{
+    margin-block: .7rem;
+}
+
+.postCard>p{
+    font-size: smaller;
+}
+
+.postCard>a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 12px ;
+    border: 2px solid #f4f4f6;
+    padding: .4rem .7rem;
+    margin-block: 1rem;
+}
+
+.productCart{
+    /* margin-block: 1.5rem; */
+    position: sticky;
+    top: -65rem;
+    height: 31.5%;
+    /* border: 2px solid green;  */
+}
+
+.catHead{
+    /* border: solid red; */
+    border-left:3px solid #09d7c8;
+    padding-left: 15px;
+    margin-bottom: .7rem;
+}
+
+.cat{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px green solid; */
+}
+
+.cat>span{
+    background: rgba(128, 128, 128, 0.071);
+    /* padding-block: .2rem; */
+    padding: .2rem .7rem;
+    width: 5inch;
+    height:5inch;
+    border-radius: 400px;
+}
+
+.catList{
+    margin-left: 20px;
+    font-size: 15px;
+    /* display: inline-flex; */
+    gap: 5px;
+    /* border: 2px solid red; */
+}
+
+
+.product{
+    margin-top: 15px; ;
+}
+
+.recentPosts{ 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.postList{
+    display: flex;
+    padding-bottom: 20px;
+    /* border-right: 2px solid red; */
+    gap: 1rem;
+    border-bottom: 1px solid #f4f4f6;
+    align-items: center;
+}
+
+.postListImg{
+    margin-block-start: .2rem;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid red; */
+    object-fit: cover;
+}
+
+.postListImg>img{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.postListText{
+    flex: 1;
+
+}
+
+.postListText>h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.postListText>p{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* styling for the footer */
